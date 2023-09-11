@@ -1,0 +1,47 @@
+.navbar-vertical{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: lightblue;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 35%;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.homeh{
+    background-color: coral;
+    color: white
+}
+
+.navbar-vertical a{
+    padding: 15px 25px;
+    font-size: large;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.navbar-horizontal{
+    display: flex;
+    flex-direction: row;
+    margin-left: 240px;
+    text-align: center;
+    background-color: darkgray;
+    border: 2px solid black;
+}
+
+.navbar-horizontal a{
+    padding: 15px 25px;
+    font-size: large;
+    text-decoration: none;
+    display: block;
+}
+
+
+.homev{
+    background-color: grey;
+    color: white
+}

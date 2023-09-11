@@ -1,0 +1,46 @@
+html{
+    background-color: yellowgreen;
+    color: purple;
+}
+
+.navbar{
+    /* display: inline-block; */
+    background-color: white;
+    width: 150px;
+    /* padding: 20px;
+    padding-right: 0; */
+    margin: 10px;
+    /* flex-direction: row; */
+}
+
+a{
+    padding: 10px;
+}
+
+.black_rec{
+    /* display:inline-block; */
+    background-color: black;
+    margin-left: 10px;
+    width: 5px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.navbar:hover{
+    background-color: blue;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.text{
+    display: inline-block;
+    /* position: absolute; */
+    margin-left: 20px;
+    /* left: 300px; */
+}

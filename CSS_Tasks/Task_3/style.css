@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+}
+th{
+    background-color: green;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
